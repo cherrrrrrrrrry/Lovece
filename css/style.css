@@ -1,0 +1,224 @@
+.preview {
+	background-image: url(../img/preview.jpg);
+	background-position: right;
+	background-color: rgba(0, 0, 0, .25);
+	padding: 15em 0 7.5em 2.5em;
+}
+
+.preview p {
+	color: white;
+	font-size: 1.5em;
+	width: 50%;
+}
+
+.about .about-items .about-item {
+	width: 30%;
+}
+
+.about .about-items .about-item p {
+	font-size: 1em;
+}
+
+.products {
+	text-align: left;
+}
+
+.products h2, 
+.products h3 {
+	text-align: center;
+}
+
+.products .products-item > img {
+	margin-right: 1em;
+	transform: rotate(15deg);
+	transition: .25s;
+	width: 25%;
+}
+
+.products .products-item:hover img {
+	transform: rotate(0deg);
+}
+
+.products .specifications {
+	margin-top: 1em;
+}
+
+.products .specifications .specifications-item span {
+	font-size: 1.25em;
+}
+
+.products .specifications .specifications-item span:first-child {
+	color: #808080;	
+}
+
+.products .products-item .products-text a {
+	margin: 1em auto 0 auto;
+	color: #202020;
+	justify-content: center !important;
+	align-items: center !important;
+	margin-top: -3.75em;
+	float: right;
+}
+
+.products .products-item .products-text a:hover {
+	color: white;
+}
+
+.products .products-item .products-text a:hover img {
+	filter: brightness(500%);
+}
+
+.products .products-item .products-text > span {
+	color: #EE3834;
+	font-size: 1.75em;
+	display: block;
+	margin-top: .5em;
+	text-decoration: underline;
+}
+
+.products .products-item .products-text span mark {
+	padding: .25em .85em;
+	line-height: 2.5em;
+	margin: 0 .25em;
+}
+
+.products .products-item .products-text span mark:first-child {
+	background-color: #F7A720;
+}
+
+.products .products-item .products-text span mark:nth-child(2) {
+	background-color: #1eb7ff;
+}
+
+.products .products-item .products-text span mark:nth-child(3) {
+	background-color: #EE3834;
+}
+
+.products .products-item .products-text span mark:nth-child(4) {
+	background-color: #fce93f;
+}
+
+.products .products-item .products-text span mark:nth-child(5) {
+	background-color: #8924d6;
+}
+
+.products .products-item .products-text span mark:nth-child(6) {
+	background-color: #1bd121;
+}
+
+.products .products-item .products-text span mark:nth-child(7) {
+	background-color: #db25d2;
+}
+
+.testimotials .testimotials-items .testimotials-item h3 {
+	color: #EE3834;
+	margin-top: 2.5em;
+	line-height: 2em;
+}
+
+.testimotials .testimotials-items .testimotials-item span {
+	text-decoration: underline;
+}
+
+.text .text-items .text-item img {
+	width: 25em;
+}
+
+.text a.btn {
+	width: 75%;
+}
+
+.gallery {
+	background-attachment: scroll;
+	background-image: url(../img/bc-5.jpg);
+	background-color: transparent;
+	color: #333;
+}
+
+.gallery-mob {
+	display: none;
+}
+
+.gallery .gallery-items .gallery-item {
+	margin: .25em .5em;
+	cursor: pointer;
+}
+
+.who .who-items {
+	align-items: baseline;
+}
+
+.who .who-items .who-item {
+	align-items: flex-start;
+	text-align: left;
+	margin: 1em;
+	width: 50%;
+}
+
+.who .who-items .who-item img,
+.events .events-items .events-item img {
+	border-radius: 50%;
+	width: 20%;
+	margin-right: 1em;
+	transform: rotate(25deg);
+	transition: .25s;
+}
+
+.who .who-items .who-item:hover img,
+.events .events-items .events-item:hover img {
+	transform: rotate(0deg);
+}
+
+.who .who-items .who-item p {
+	font-size: 1em;
+}
+
+.buy .buy-items .buy-item {
+	border: 3px solid white;
+	color: white;
+	padding: 1em;
+}
+
+.events {
+	background-attachment: scroll;
+	background-image: url(../img/bc-4.jpg);
+	background-color: transparent;
+	color: #333;
+}
+
+.events .events-items {
+	flex-wrap: wrap;
+}
+
+.events .events-items .events-item {
+	margin: 1em 0;
+	text-align: left;
+}
+
+.contacts .contacts-items {
+	margin-top: 2em;
+}
+
+.contacts .contacts-items .contacts-item {
+	width: 30%;
+}
+
+.contacts .contacts-items .contacts-item:first-child a {
+	color: #333;
+	font-size: 1em;
+	font-weight: normal; 
+}
+
+.contacts .contacts-items .contacts-item img {
+	width: 3.5em;
+	margin-bottom: .25em;
+}
+
+.contacts .contacts-items .contacts-item h3 {
+	font-size: 1.5em;
+}
+
+.contacts .contacts-items .contacts-item span {
+	margin: .5em 0;
+	font-size: 1.5em;
+}

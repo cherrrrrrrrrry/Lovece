@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color: white;
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: 'Bad Script', cursive;
+}
+
+h3 {
+	line-height: 2em;
+	font-family: 'Bad Script', cursive;
+}
+
+h4 {}
+
+hr {
+	width: 2.5%;
+	border: none;
+	height: 5px;
+	background-color: #EE3834;
+	margin: 1em 0;
+}
+
+p {
+	line-height: 1.5em;
+	font-size: 1.25em;
+}
+
+li {
+	list-style: none;
+}
+
+img.icon {
+	width: 2.5em;
+	margin: 0 .5em;
+}
+
+img.icon-bg {
+	width: 5em;
+	height: 5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.btn {
+	color: white;
+	border: 3px solid #EE3834;
+	padding: 1em 1.5em;
+	margin-top: 1em;
+	width: 20%;
+	text-align: center;
+	transition: .25s;
+	border-radius: .25em;
+	text-transform: uppercase;
+}
+
+a.btn:hover {
+	text-decoration: underline;
+	background-color: #EE3834;
+}
+
+a.a-mob {
+	display: none !important;
+}
+
+a.number {
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.block {
+	padding: 5em 0;
+	text-align: center;
+	color: #202020;
+}
+
+.block > hr {
+	margin: 1em auto;
+}
+
+.block-clr {
+	background-color: #f2f2f2;
+}
+
+.block-inv {
+	color: white;
+	background-color: #EE3834;
+}
+
+.block-inv hr {
+	background-color: white;
+}
+
+.block-inv a.btn {
+	border-color: white;
+	margin: 0 auto;
+	font-weight: bold;
+	margin-top: 2.5em;
+}
+
+.block-inv a.btn:hover {
+	background-color: white;
+	color: #EE3834;
+}
+
+.block-img {
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+	background-color: rgba(0, 0, 0, .75);
+	color: white;
+}
+
+.wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.d-block {
+	display: block;
+}
+
+.d-flex,
+.items {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.item {
+	margin: 0 .5em;
+}
+
+.item hr {
+	width: 5%;
+	margin: .5em auto;
+}
+
+.clr {
+	color: #EE3834;
+}
+
+.popup {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+}
+
+.popup .popup-content {
+	top: 6.5em;
+	left: 2.5em;
+	bottom: 2.5em;
+	right: 2.5em;
+	position: absolute;
+    padding: 1em;
+    background-image: url(../img/bc-5.jpg);
+    border-radius: .25em;
+}
+
+.popup .popup-close {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	transition: .5s;
+}
+
+.popup .popup-items {
+	margin-top: 5em;
+}
+
+.popup .popup-items .popup-item {
+	width: 30%;
+}
+
+.popup .popup-content .popup-items .popup-item img {
+	border-radius: 50%;
+}
+
+header {
+	border-bottom: 3px solid #EE3834;
+	padding: 1.5em 0;
+	width: 100%;
+	position: absolute;
+}
+
+header.sticky {
+	position: fixed;
+	padding: .5em 0;
+	width: 100%;
+	background-color: #EE3834;
+	transition: .5s;
+	z-index: 9999;
+}
+
+header .logo {
+	font-family: 'Leckerli One', cursive;
+	color: white;
+	font-size: 2.5em;
+}
+
+header .main-menu a.menu-trigger {
+	display: none;
+}
+
+header .main-menu ul li {
+	display: inline-block;
+}
+
+header .main-menu ul li a {
+	display: inline-block;
+}
+
+header .main-menu a {
+	color: white;
+	text-transform: uppercase;
+	padding: .5em;
+	margin: 0 .5em;
+	font-weight: bold;
+}
+
+header .main-menu a:hover {
+	opacity: .75;
+	transition: .25s;
+}
+
+footer {
+	padding: 2.5em 0;
+	text-align: center;
+}
+
+footer span.clr {
+	font-weight: bold;
+}
+
+footer .footer-menu {
+	margin-bottom: 1.5em;
+}
+
+footer .footer-menu a {
+	color: #333;
+	margin: 1em;
+}
+
+footer .footer-menu a:hover {
+	text-decoration: underline;
+}
